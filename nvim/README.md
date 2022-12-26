@@ -25,3 +25,21 @@ Leader key: `Space`
 | `<leader>w=`        | `n`  | Make all window equally high and wide     |
 
 
+## Packages
+### Harpoon
+Lord Primeagen's hammer!
+
+**Philosophy**   
+When we are working on a feature, mostly we spent time across 3,4 files.
+This Package helps to add main files and navigate quickly to those files.
+Main file list is saved, convenient when we restart nvim. On top of that
+it remembers the cursor position on that file.
+
+| Keybinding  | Description       |
+|-------------|-------------------|
+| `<Leader>a` | Add files to list |
+| `Ctrl+e`    | View file list    |
+| `Ctrl+j`    | Go to first file  |
+| `Ctrl+k`    | Go to second file |
+| `Ctrl+l`    | Go to third file  |
+| `Ctrl+;`    | Go to fourth file |
