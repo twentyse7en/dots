@@ -1,0 +1,10 @@
+git:
+  paging:
+    colorArg: always
+
+gui:
+  theme:
+    selectedLineBgColor:
+      - reverse
+    selectedRangeBgColor:
+      - reverse
