@@ -40,6 +40,9 @@ Idk, I took it from internet suggestions, no issues so far. Customised theme and
 ## Neovim
 We need more talk here, I would add docs later.
 
+## Lazygit
+Git TUI, made for lazy people.
+
 ## Scripts
 * multimonitor: dual monitor setup, change according to setup
 * setbg: setwallper, run `setbg ~/path/to/wallpaper`, once set simply run `setbg &` on startup
