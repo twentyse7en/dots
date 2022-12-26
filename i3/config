@@ -189,3 +189,7 @@ bindsym $mod+v exec firefox
 
 # App rules
 assign [class="Slack"] 9
+
+# remove title bar
+default_border pixel 3
+default_floating_border pixel 3
