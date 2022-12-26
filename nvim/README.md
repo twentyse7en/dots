@@ -24,6 +24,22 @@ Leader key: `Space`
 | `<leader>w<leader>` | `n`  | Set current window width wide as possible |
 | `<leader>w=`        | `n`  | Make all window equally high and wide     |
 
+## Essential IDE
+
+| Keybindings    | Description          |
+|----------------|----------------------|
+| `Ctrl+Space`   | Open completion      |
+| `Ctrl+p`       | Select prev option   |
+| `Ctrl+n`       | Select next option   |
+| `Ctrl+y`       | Confirm selection    |
+| `g+d`          | [g]o to [d]efinition |
+| `K`            | hover                |
+| `<Leader>+v+d` | [v]iew [d]iagnostic  |
+| `[d`           | Next [d]iagnostic    |
+| `]d`           | Prev [d]iagnostic    |
+| `<Leader>+c+a` | [c]ode [a]ction      |
+| `<Leader>+r+n` | [r]e-[n]ame          |
+| `<Leader>+r+r` | Go to [r]eferences   |
 
 ## Packages
 ### Harpoon
