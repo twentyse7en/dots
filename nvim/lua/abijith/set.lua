@@ -5,7 +5,8 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
--- 4 space indenting
+-- this might be redundant
+-- tab relies on tpope/vim-sleuth
 vim.opt.tabstop = 4;
 vim.opt.softtabstop = 4;
 vim.opt.shiftwidth = 4;
