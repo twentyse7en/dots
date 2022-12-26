@@ -22,7 +22,7 @@
     ### Geometry ###
 
     # dynamic width from 0 to 300
-    # width = (0, 300)
+    # width = (100, 500)
     # constant width of 300
     # width = 300
 
@@ -36,7 +36,8 @@
     offset = 10x50
 
     # fix for fullwidth in i3
-    geometry = "300x5-30+20"
+    geometry = "350x5-30+20"
+    word_wrap = true
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
