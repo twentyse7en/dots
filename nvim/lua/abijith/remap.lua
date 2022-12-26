@@ -2,7 +2,7 @@ vim.g.mapleader = " "
 
 -- may be later move to neo-tree
 -- I have it on previous config
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>pv", vim.cmd.Vex)
 
 -- move selected lines to up/down
 -- auto indented
@@ -25,3 +25,14 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+Y]])
 
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format);
+
+-- window management
+-- movement
+vim.keymap.set("n", "<leader>wh", "<C-W>h");
+vim.keymap.set("n", "<leader>wj", "<C-W>j");
+vim.keymap.set("n", "<leader>wk", "<C-W>k");
+vim.keymap.set("n", "<leader>wl", "<C-W>l");
+-- max size for current buffer
+vim.keymap.set("n", "<leader>w<leader>", "<C-W>|")
+-- equal size for all buffers
+vim.keymap.set("n", "<leader>w=", "<C-W>=")
