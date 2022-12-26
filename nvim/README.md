@@ -13,3 +13,15 @@ Leader key: `Space`
 | `<Leader>f`  | `n`    | Format the file with lsp                    |
 
 `NOTE:` Half page jump are enhanced, cursor will be on center of the screen.
+
+### Window movements
+| Key binding         | Mode | Description                               |
+|---------------------|------|-------------------------------------------|
+| `<leader>wh`        | `n`  | Move to left window                       |
+| `<leader>wj`        | `n`  | Move to top window                        |
+| `<leader>wk`        | `n`  | Move to bottom window                     |
+| `<leader>wl`        | `n`  | Move to right window                      |
+| `<leader>w<leader>` | `n`  | Set current window width wide as possible |
+| `<leader>w=`        | `n`  | Make all window equally high and wide     |
+
+
