@@ -1,9 +1,9 @@
 # startup scripts
 remaps & # Remap capslock and escape
 setbg & # set wallpaper
-# multimonitor
+multimonitor &
 
 # startup Apps
-# slack &
+slack &
 batsignal -b # battery warning
 # clight &
