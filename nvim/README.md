@@ -25,6 +25,8 @@ Leader key: `Space`
 | `<leader>w=`        | `n`  | Make all window equally high and wide     |
 
 ## Essential IDE
+`NOTE`: `Ctrl+y` to select next option, binding works only when completion menu
+is open
 
 | Keybindings    | Description          |
 |----------------|----------------------|
@@ -40,6 +42,16 @@ Leader key: `Space`
 | `<Leader>+c+a` | [c]ode [a]ction      |
 | `<Leader>+r+n` | [r]e-[n]ame          |
 | `<Leader>+r+r` | Go to [r]eferences   |
+
+## Telescope
+One mighty package to rule them all!
+
+`[P] for [P]roject
+
+| `Keybindings`  | `Description`          |
+|----------------|------------------------|
+| `<Leader>+p+f` | [P]roject [f]ind files |
+| `<Leader>+p+s` | [P]roject [s]earch     |
 
 ## Packages
 ### Harpoon
