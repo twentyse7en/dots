@@ -35,7 +35,7 @@ lsp.on_attach(function(client, bufnr)
 	vim.keymap.set("n", "[d", function() vim.diagnostic.goto_next() end, opts);
 	vim.keymap.set("n", "]d", function() vim.diagnostic.goto_prev() end, opts);
 	vim.keymap.set("n", "<leader>ca", function() vim.lsp.buf.code_action() end, opts);
-	vim.keymap.set("n", "<leader>rr", builtin.lsp_references, opts);
+	vim.keymap.set("n", "<leader>rr", function() builtin.lsp_references({ show_line = false }) end, opts);
 	vim.keymap.set("n", "<leader>rn", function() vim.lsp.buf.rename() end, opts);
 	vim.keymap.set("n", "<C-h>", function() vim.lsp.buf.signature_help() end, opts);
 end);

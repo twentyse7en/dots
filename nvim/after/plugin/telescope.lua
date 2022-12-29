@@ -1,4 +1,14 @@
 local builtin = require('telescope.builtin')
+local telescope = require('telescope');
+
+telescope.setup{
+	defaults = {
+		prompt_prefix = "~ ",
+		path_display = {
+			shorten = 2;
+		}
+	};
+};
 
 -- [P] must be for [p]roject
 -- find all the files
