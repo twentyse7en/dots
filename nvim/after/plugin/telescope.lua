@@ -1,5 +1,6 @@
 local builtin = require('telescope.builtin')
 
+-- [P] must be for [p]roject
 -- find all the files
 vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
 -- find files which are in git
