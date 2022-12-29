@@ -1,6 +1,9 @@
 # i3
 
 ## Dual Monitor Setup
+Split workspace [1-5] in first monitor and [6-10] in second monitor. No extra keybinding is required.
+
+*previous solution*:  
 I have been using dwm for long time, they provide seperate workspaces for each monitor. `[1-9]` for screen 1 and `[1-9]` for screen 2. But in i3
 the workspace is shared, we define workspace in the config [1-10] then this will be availbale in both screen. One workspace will be available in one
 screen at a time. What I wanted was seperate 9 workspaces for each screens, independent of each other. It can be achieved in i3, but we have to
