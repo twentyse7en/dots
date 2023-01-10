@@ -52,6 +52,9 @@ One mighty package to rule them all!
 |----------------|------------------------|
 | `<Leader>+p+f` | [P]roject [f]ind files |
 | `<Leader>+p+s` | [P]roject [s]earch     |
+| `<Leader>+p+b` | [P]roject [b]uffer     |
+| `<Leader>+p+g` | [P]roject [g]it status     |
+
 
 ## Packages
 ### Harpoon
