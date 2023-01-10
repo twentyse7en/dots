@@ -55,6 +55,12 @@ One mighty package to rule them all!
 | `<Leader>+p+b` | [P]roject [b]uffer     |
 | `<Leader>+p+g` | [P]roject [g]it status     |
 
+## Git
+
+| `Keybindings`  | `Description`          |
+|----------------|------------------------|
+| `<Leader>+g+s` | [G]it [S]tatus         |
+| `<Leader>+g+d` | [G]it [D]iff           |
 
 ## Packages
 ### Harpoon
