@@ -203,6 +203,7 @@ bar {
 bindsym $mod+Shift+l exec i3lock --color 282e3c
 bindsym $mod+c exec chromium
 bindsym $mod+v exec firefox
+bindsym Print exec flameshot gui -p /home/abijith/Pictures/
 
 # App rules
 assign [class="Slack"] $ws9
