@@ -1,7 +1,12 @@
 # startup scripts
 remaps & # Remap capslock and escape
-setbg & # set wallpaper
 multimonitor &
+
+# set wallpaper
+# setbg &
+# random wallpaper
+feh --bg-fill --no-fehbg --randomize /home/abijith/Pictures/wallhaven/minimal/* &
+
 
 # startup Apps
 slack &
