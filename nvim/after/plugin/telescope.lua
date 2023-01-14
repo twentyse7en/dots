@@ -26,3 +26,4 @@ vim.keymap.set('n', '<leader>pb', builtin.buffers, {});
 -- TODO: some issues will look later
 vim.keymap.set('n', '<leader>pc', builtin.current_buffer_fuzzy_find, {});
 vim.keymap.set('n', '<leader>pg', builtin.git_status, {});
+vim.keymap.set('n', '<leader>pw', builtin.live_grep, {});
