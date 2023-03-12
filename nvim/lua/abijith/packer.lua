@@ -25,6 +25,8 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive');
 	use('tpope/vim-sleuth');
+	use('junegunn/goyo.vim');
+	use('junegunn/limelight.vim');
 	use{'numToStr/Comment.nvim',
 		config = function()
 			require('Comment').setup()

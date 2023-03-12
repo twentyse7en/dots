@@ -11,4 +11,4 @@ feh --bg-fill --no-fehbg --randomize /home/abijith/Pictures/wallhaven/minimal/* 
 # startup Apps
 slack &
 batsignal -b # battery warning
-# clight &
+clight &
