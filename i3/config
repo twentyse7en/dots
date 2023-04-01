@@ -202,6 +202,7 @@ bar {
 # custom keybindings
 bindsym $mod+Shift+l exec i3lock --color 282e3c
 bindsym $mod+c exec chromium
+bindsym $mod+n exec remnote
 bindsym $mod+v exec firefox
 bindsym Print exec flameshot gui -p /home/abijith/Pictures/
 
