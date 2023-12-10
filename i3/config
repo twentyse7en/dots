@@ -42,7 +42,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty 
 
 # kill focused window
 bindsym $mod+q kill
@@ -200,7 +200,7 @@ bar {
 }
 
 # custom keybindings
-bindsym $mod+Shift+l exec i3lock --color 282e3c
+bindsym $mod+Shift+z exec i3lock --color 282e3c
 bindsym $mod+c exec chromium
 bindsym $mod+n exec remnote
 bindsym $mod+v exec firefox

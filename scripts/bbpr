@@ -1,0 +1,9 @@
+#!/bin/bash
+ORG_NAME="keyvaluesoftwaresystems"
+DEST="pre-dev"
+
+repo=$(basename $(pwd))
+branch=$(git branch --show-current)
+printf "$repo $branch"
+
+xdg-open "https://bitbucket.org/$ORG_NAME/$repo/pull-requests/new?source=$branch&dest=$DEST"

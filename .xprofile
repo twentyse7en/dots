@@ -5,7 +5,7 @@ multimonitor &
 # set wallpaper
 # setbg &
 # random wallpaper
-feh --bg-fill --no-fehbg --randomize /home/abijith/Pictures/wallhaven/minimal/* &
+feh --bg-fill --no-fehbg --randomize /home/abijith/Pictures/wallpaper/* &
 
 
 # startup Apps
